@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:onboarding_winter_project/constants/app_ui_constants.dart';
-import 'package:onboarding_winter_project/resources/app_images.dart';
-import 'package:onboarding_winter_project/resources/app_text_styles.dart';
+import 'package:onboarding_winter_project/core/constants/app_ui_constants.dart';
+import 'package:onboarding_winter_project/core/resources/app_text_styles.dart';
+
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key, required this.pageIndex});
