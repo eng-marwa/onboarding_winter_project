@@ -1,5 +1,5 @@
 import 'package:onboarding_winter_project/core/resources/app_images.dart';
-import 'package:onboarding_winter_project/presentation/ui_model/page_ui_model.dart';
+import 'package:onboarding_winter_project/features/onboarding/presentation/ui_model/page_ui_model.dart';
 
 class AppUiConstants {
   AppUiConstants._();

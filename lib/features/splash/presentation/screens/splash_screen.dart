@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:onboarding_winter_project/core/resources/app_images.dart';
-import 'package:onboarding_winter_project/presentation/onboarding/onboarding_screen.dart';
+import 'package:onboarding_winter_project/features/onboarding/presentation/screens/onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -13,7 +13,6 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
     navigateToPage();
@@ -26,8 +25,12 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigateToPage() {
-    Timer(Duration(seconds: 3), () =>
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => OnboardingScreen(),)),);
+    Timer(
+      Duration(seconds: 3),
+      () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => OnboardingScreen()),
+      ),
+    );
   }
 }

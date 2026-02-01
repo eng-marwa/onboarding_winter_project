@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:onboarding_winter_project/core/resources/app_text_styles.dart';
-import 'package:onboarding_winter_project/presentation/auth/widgets/login_form.dart';
+import 'package:onboarding_winter_project/features/auth/presentation/widgets/login_form.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -18,7 +18,6 @@ class LoginScreen extends StatelessWidget {
 Back!''', style: AppTextStyles.blackColor24ExtraBold),
               SizedBox(height: 30),
               LoginForm(),
-
             ],
           ),
         ),

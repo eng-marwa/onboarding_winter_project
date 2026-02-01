@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:onboarding_winter_project/core/constants/app_ui_constants.dart';
-import 'package:onboarding_winter_project/presentation/onboarding/widgets/onboarding_page.dart';
-import 'package:onboarding_winter_project/presentation/onboarding/widgets/page_footer.dart';
-import 'package:onboarding_winter_project/presentation/onboarding/widgets/page_header.dart';
+import 'package:onboarding_winter_project/features/onboarding/presentation/widgets/onboarding_page.dart';
+import 'package:onboarding_winter_project/features/onboarding/presentation/widgets/page_footer.dart';
+import 'package:onboarding_winter_project/features/onboarding/presentation/widgets/page_header.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
